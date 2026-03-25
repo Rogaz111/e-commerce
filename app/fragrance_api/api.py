@@ -1,7 +1,7 @@
 from ninja.security import HttpBearer
 from ninja_extra import NinjaExtraAPI, api_controller, route
 
-from app.fragrance_api.schemas import ProductSchemaOut, Error
+from fragrance_api.schemas import ProductSchemaOut, Error
 
 class GlobalAuth(HttpBearer):
     def authenticate(self, request, token):

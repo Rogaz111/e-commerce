@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class FragranceApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app.fragrance_api'
+    name = 'fragrance_api'

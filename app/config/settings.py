@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "ninja_extra",
-    "app.fragrance_api",
+    "fragrance_api",
 
 ]
 
@@ -44,7 +44,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'app.config.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -62,8 +62,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'app.config.wsgi.application'
-ASGI_APPLICATION = 'app.config.asgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
+ASGI_APPLICATION = 'config.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases

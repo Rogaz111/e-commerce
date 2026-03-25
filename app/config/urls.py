@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from app.fragrance_api.api import api
+from fragrance_api.api import api
 
 urlpatterns = [
     path('admin/', admin.site.urls),
